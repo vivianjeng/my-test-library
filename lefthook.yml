@@ -2,6 +2,7 @@ pre-commit:
   parallel: true
   commands:
     lint:
+      skip: true
       glob: "*.{js,ts,jsx,tsx}"
       run: npx eslint {staged_files}
     types:

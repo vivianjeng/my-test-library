@@ -32,6 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
+    "ubrn:ios": "ubrn build ios --and-generate && (cd example/ios && pod install)",
     "example": "yarn workspace my-test-library-example",
     "test": "jest",
     "typecheck": "tsc",
