@@ -33,6 +33,7 @@
   ],
   "scripts": {
     "ubrn:ios": "ubrn build ios --and-generate && (cd example/ios && pod install)",
+    "ubrn:android": "ubrn build android --and-generate",
     "example": "yarn workspace my-test-library-example",
     "test": "jest",
     "typecheck": "tsc",
