@@ -6,7 +6,10 @@ const root = path.resolve(__dirname, '..');
 
 const config = getDefaultConfig(__dirname);
 
-config.resolver.assetExts = [...config.resolver.assetExts, 'zkey', 'bin', 'json', 'local'];
+config.resolver.assetExts.push('zkey');
+config.resolver.assetExts.push('bin');
+config.resolver.assetExts.push('json');
+config.resolver.assetExts.push('local');
 
 module.exports = withMetroConfig(config, {
   root,

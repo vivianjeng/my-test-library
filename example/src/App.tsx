@@ -50,7 +50,7 @@ function CircomProofComponent() {
 
           if (Platform.OS === 'android') {
             // File bundled in android assets folder (via react-native.config.js)
-            sourcePath = newFileName;
+            sourcePath = `custom/${newFileName}`;
             await RNFS.copyFileAssets(sourcePath, newFilePath);
           } else {
             // File bundled in iOS bundle (via react-native.config.js)
@@ -89,7 +89,7 @@ function CircomProofComponent() {
 
           if (Platform.OS === 'android') {
             // File bundled in android assets folder (via react-native.config.js)
-            sourcePath = newFileName;
+            sourcePath = `custom/${newFileName}`;
             await RNFS.copyFileAssets(sourcePath, newFilePath);
           } else {
             // File bundled in iOS bundle (via react-native.config.js)

@@ -32,8 +32,8 @@
     "!**/.*"
   ],
   "scripts": {
-    "ubrn:ios": "ubrn build ios --and-generate && (cd example/ios && pod install)",
-    "ubrn:android": "ubrn build android --and-generate",
+    "ubrn:ios": "ubrn build ios --and-generate --release && (cd example/ios && pod install)",
+    "ubrn:android": "ubrn build android --and-generate --release --targets aarch64-linux-android",
     "example": "yarn workspace my-test-library-example",
     "test": "jest",
     "typecheck": "tsc",

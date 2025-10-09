@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-MyTestLibraryExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MyTestLibraryExample.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		429ABBC750D24139A5DFCB28 /* plonk_fibonacci_vk.bin in Resources */ = {isa = PBXBuildFile; fileRef = C2F46347CB0E49819813C0B9 /* plonk_fibonacci_vk.bin */; };
+		6D02A5C77C144D95933C3FFD /* plonk_fibonacci_srs.bin in Resources */ = {isa = PBXBuildFile; fileRef = A75EBD7E6671443284BEEF36 /* plonk_fibonacci_srs.bin */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		824F58E859864D6083795149 /* plonk_fibonacci_pk.bin in Resources */ = {isa = PBXBuildFile; fileRef = 9C8FAA0995EA45B3BCC3C0BA /* plonk_fibonacci_pk.bin */; };
+		8A851A0869FD414B98F51D6E /* noir_multiplier2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E9B7DF37D93487DB2B82672 /* noir_multiplier2.json */; };
 		9F3F52EE09C593B070C354DB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		D7011D28E17D45C2BE257368 /* multiplier2_final.zkey in Resources */ = {isa = PBXBuildFile; fileRef = 206F42B759ED439DA8FFF749 /* multiplier2_final.zkey */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +24,16 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyTestLibraryExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyTestLibraryExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MyTestLibraryExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		206F42B759ED439DA8FFF749 /* multiplier2_final.zkey */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = multiplier2_final.zkey; path = ../assets/keys/multiplier2_final.zkey; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-MyTestLibraryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTestLibraryExample.debug.xcconfig"; path = "Target Support Files/Pods-MyTestLibraryExample/Pods-MyTestLibraryExample.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-MyTestLibraryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTestLibraryExample.release.xcconfig"; path = "Target Support Files/Pods-MyTestLibraryExample/Pods-MyTestLibraryExample.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-MyTestLibraryExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyTestLibraryExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MyTestLibraryExample/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyTestLibraryExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8FAA0995EA45B3BCC3C0BA /* plonk_fibonacci_pk.bin */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = plonk_fibonacci_pk.bin; path = ../assets/keys/plonk_fibonacci_pk.bin; sourceTree = "<group>"; };
+		9E9B7DF37D93487DB2B82672 /* noir_multiplier2.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = noir_multiplier2.json; path = ../assets/keys/noir_multiplier2.json; sourceTree = "<group>"; };
+		A75EBD7E6671443284BEEF36 /* plonk_fibonacci_srs.bin */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = plonk_fibonacci_srs.bin; path = ../assets/keys/plonk_fibonacci_srs.bin; sourceTree = "<group>"; };
+		C2F46347CB0E49819813C0B9 /* plonk_fibonacci_vk.bin */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = plonk_fibonacci_vk.bin; path = ../assets/keys/plonk_fibonacci_vk.bin; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +70,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3C7AC1147D4C4DAD9257A67B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				206F42B759ED439DA8FFF749 /* multiplier2_final.zkey */,
+				9E9B7DF37D93487DB2B82672 /* noir_multiplier2.json */,
+				9C8FAA0995EA45B3BCC3C0BA /* plonk_fibonacci_pk.bin */,
+				A75EBD7E6671443284BEEF36 /* plonk_fibonacci_srs.bin */,
+				C2F46347CB0E49819813C0B9 /* plonk_fibonacci_vk.bin */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +98,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				3C7AC1147D4C4DAD9257A67B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +185,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9F3F52EE09C593B070C354DB /* PrivacyInfo.xcprivacy in Resources */,
+				D7011D28E17D45C2BE257368 /* multiplier2_final.zkey in Resources */,
+				8A851A0869FD414B98F51D6E /* noir_multiplier2.json in Resources */,
+				824F58E859864D6083795149 /* plonk_fibonacci_pk.bin in Resources */,
+				6D02A5C77C144D95933C3FFD /* plonk_fibonacci_srs.bin in Resources */,
+				429ABBC750D24139A5DFCB28 /* plonk_fibonacci_vk.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
