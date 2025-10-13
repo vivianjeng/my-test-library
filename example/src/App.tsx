@@ -34,7 +34,6 @@ type ProofType = 'circom' | 'halo2' | 'noir';
 async function loadAssets(fileName: string) {
   const filePath = `${RNFS.DocumentDirectoryPath}/${fileName}`;
   const fileExists = await RNFS.exists(filePath);
-  console.log('filePath', filePath);
   if (!fileExists) {
     try {
       let sourcePath = '';
@@ -46,7 +45,6 @@ async function loadAssets(fileName: string) {
       } else {
         // File bundled in iOS bundle (via react-native.config.js)
         sourcePath = `${RNFS.MainBundlePath}/${fileName}`;
-        console.log('sourcePath', sourcePath);
         await RNFS.copyFile(sourcePath, filePath);
       }
     } catch (error) {
@@ -298,7 +296,6 @@ function NoirProofComponent() {
           verificationKey,
           lowMemoryMode
         );
-        console.log('res', res);
         setProof(res);
       } catch (error) {
         console.error('Error generating proof:', error);
