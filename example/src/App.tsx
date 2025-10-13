@@ -174,7 +174,8 @@ function Halo2ProofComponent() {
   const [isValid, setIsValid] = useState<string>('');
 
   async function genProof(): Promise<void> {
-    const circuitInputs = new Map<string, string[]>([['out', [out]]]);
+    const circuitInputs = new Map<string, string[]>();
+    circuitInputs.set('out', [out]);
 
     if (Platform.OS === 'web') {
       console.log('not implemented');
@@ -241,11 +242,11 @@ function Halo2ProofComponent() {
         <Text style={styles.output}>{isValid}</Text>
         <Text style={styles.label}>Public Signals:</Text>
         <ScrollView style={styles.outputScroll}>
-          <Text style={styles.output}>{JSON.stringify(inputs)}</Text>
+          <Text style={styles.output}>{new Uint8Array(inputs)}</Text>
         </ScrollView>
         <Text style={styles.label}>Proof:</Text>
         <ScrollView style={styles.outputScroll}>
-          <Text style={styles.output}>{JSON.stringify(proof)}</Text>
+          <Text style={styles.output}>{new Uint8Array(proof)}</Text>
         </ScrollView>
       </View>
     </View>
@@ -376,7 +377,7 @@ function NoirProofComponent() {
               </ScrollView> */}
         <Text style={styles.label}>Proof:</Text>
         <ScrollView style={styles.outputScroll}>
-          <Text style={styles.output}>{JSON.stringify(proof)}</Text>
+          <Text style={styles.output}>{new Uint8Array(proof)}</Text>
         </ScrollView>
       </View>
     </View>
